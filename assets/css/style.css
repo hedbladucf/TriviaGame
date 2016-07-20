@@ -1,0 +1,187 @@
+html {
+  position: relative;
+  min-height: 100%;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+body {
+  margin-bottom: 60px;
+  font-family: Helvetica;
+  background-image: url(../images/paisley4.jpg);
+}
+p{
+	font-size: 12pt;
+  font-family: 'Varela Round', sans-serif;
+	color: orange;
+}
+label, .fields{
+  color: orange;
+}
+.picture-title:hover, label:hover{
+  color: grey;
+}
+.thumbnail{
+  height: 185px;
+  width: 185px;
+  background-color: #1C1F24;
+  border: 1px solid #1C1F24;
+}
+.panel-default > .panel-heading{
+  border-color: orange;
+}
+.btn-primary {
+    color: orange;
+    background-color: #1C1F24;
+    border-color: #1C1F24;
+}
+.btn-default{
+  background-color: transparent;
+  border-color: transparent;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-left: 20px;
+}
+.btn-default:hover{
+  background-color: transparent;
+  border: 2px solid orange;
+}
+div#diamond:active, div#sapphire:active,
+div#emerald:active, div#ruby:active{
+  background-color: transparent;
+  border-color: yellow;
+  padding-top: 10;
+}
+.row .scores{
+  margin-left: 0;
+  margin-right: 0;
+}
+.footer {
+  position: absolute;
+  text-align: center;
+  padding-top: 20px;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #1C1F24;
+}
+.navbar-nav{
+	padding-right: 90px;
+}
+.panel-title, .panel-body{
+	text-align: center;
+}
+#panelBody{
+  text-align: left;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a,
+.panel-title, .page-header{
+	color: orange;
+}
+.navbar-default{
+	background-color: #1C1F24;
+	padding: 0;
+  border-bottom: 1px solid orange;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-color: #1C1F24;
+}
+#connectLinks{
+	padding-top: 62px;
+	padding-left: 50px;
+}
+.panel-title{
+	padding-bottom: 10px;
+}
+.panel, .panel-title{
+	background-color: transparent;
+	border-color: transparent;
+  width: 250px;
+}
+.panel-title, .panel-default > .panel-heading{
+	font-size: 18pt;
+	background-color: transparent;
+}
+.page-header{
+  border-bottom: 1px solid orange;
+}
+.panel-heading {
+    padding: 0;
+    border-bottom: 1px solid orange;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.row .second, .row .first{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.row .second{
+  padding-top: 20px;  
+}
+.picture-title{
+  text-align: center;
+  color: orange;
+  transition: all .5s ease-in-out;
+  animation-delay: .5s;
+}
+#gameDiv{
+  padding-top: 100px;
+}
+#holder{
+  color: orange;
+  font-size: 16pt;
+  letter-spacing: 0.5em;
+}
+#status, #guess, #guessed{
+  color: orange;
+}
+@media(max-width:980px){
+  .picture-title{
+    text-align: left;
+  }
+  #defeatsDiv, #currentScoreDiv{
+    margin-bottom: 20px;
+  }
+  .thumbnail{
+    height: 200px;
+    width: 200px;
+  }
+  #bio-parapgraph{
+    padding-top: 40px;
+  }
+
+}
+@media(max-width:768px){
+  .picture-title{
+    text-align: left;
+  }
+  #defeatsDiv, #currentScoreDiv{
+    margin-bottom: 20px;
+  }
+  .thumbnail{
+    height: 200px;
+    width: 200px;
+  }
+  #bio-paragraph{
+    padding-top: 40px;
+  }
+  .navbar-default .navbar-nav>li>a{
+    float: left;
+  }
+
+}
+@media(max-width:640px){
+  h1{
+    position: static;
+  }
+  #defeatsDiv, #currentScoreDiv{
+    margin-bottom: 20px;
+  }
+  #bio-parapgraph{
+    padding-top: 40px;
+  }
+  .navbar-default .navbar-nav>li>a{
+    float: left;
+  }
+}
